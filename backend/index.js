@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin : 'https://talentbridge-6nwy.onrender.com/',
+    origin : 'https://talentbridge-1.onrender.com/',
     credentials:true
 }
 app.use(cors(corsOptions));
